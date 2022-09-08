@@ -8,15 +8,15 @@ def play():
 
 def countandlock():
     time.sleep(2)
-    print("5")
+    print("Locking in 5...")
     time.sleep(3)
-    print("4")
+    print("4...")
     time.sleep(3)
-    print("3")
+    print("3...")
     time.sleep(3)
-    print("2")
+    print("2...")
     time.sleep(3)
-    print("1")
+    print("1..!")
     time.sleep(2)
     ctypes.windll.user32.LockWorkStation()
 
